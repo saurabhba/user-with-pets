@@ -73,7 +73,7 @@ function App() {
           loading={loading}
         />
 
-        {error && <div className="alert alert-error">{error}</div>}
+        {error && <div className="alert alert-error text-black">{error}</div>}
 
         {!loading && users.length === 0 && !error && (
           <div className="empty-state">
