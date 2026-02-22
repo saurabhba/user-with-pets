@@ -1,0 +1,14 @@
+com\example\userswithpet\service\UserWithPetService.class
+com\example\userswithpet\api\DogImageApiResponse.class
+com\example\userswithpet\api\RandomUserApiResponse$UserResult$Dob.class
+com\example\userswithpet\UsersWithPetApplication.class
+com\example\userswithpet\controller\UserWithPetController.class
+com\example\userswithpet\model\UserWithPet.class
+com\example\userswithpet\api\DogImagesApiResponse.class
+com\example\userswithpet\model\Dob.class
+com\example\userswithpet\api\RandomUserApiResponse$UserResult$Id.class
+com\example\userswithpet\api\RandomUserApiResponse$UserResult$Name.class
+com\example\userswithpet\config\HttpClientConfig.class
+com\example\userswithpet\api\RandomUserApiResponse$UserResult$Picture.class
+com\example\userswithpet\api\RandomUserApiResponse$UserResult.class
+com\example\userswithpet\api\RandomUserApiResponse.class

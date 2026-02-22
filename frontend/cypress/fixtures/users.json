@@ -1,0 +1,56 @@
+{
+  "defaultUsers": [
+    {
+      "id": "1",
+      "gender": "male",
+      "country": "United States",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "dob": { "date": "1985-01-01", "age": 40 },
+      "phone": "555-1234",
+      "petImage": "https://images.dog.ceo/breeds/hound-english/n02089973_1003.jpg"
+    },
+    {
+      "id": "2",
+      "gender": "female",
+      "country": "Germany",
+      "name": "Anna Schmidt",
+      "email": "anna.schmidt@example.com",
+      "dob": { "date": "1990-05-15", "age": 35 },
+      "phone": "555-9876",
+      "petImage": "https://images.dog.ceo/breeds/terrier-norfolk/n02094114_2140.jpg"
+    },
+    {
+      "id": "3",
+      "gender": "male",
+      "country": "Brazil",
+      "name": "Carlos Silva",
+      "email": "carlos.silva@example.com",
+      "dob": { "date": "1995-10-10", "age": 30 },
+      "phone": "555-5555",
+      "petImage": "https://images.dog.ceo/breeds/retriever-golden/n02099601_2459.jpg"
+    }
+  ],
+  "frenchUsers": [
+    {
+      "id": "10",
+      "gender": "female",
+      "country": "France",
+      "name": "Camille Dubois",
+      "email": "camille.dubois@example.com",
+      "dob": { "date": "1992-07-20", "age": 33 },
+      "phone": "555-2222",
+      "petImage": "https://images.dog.ceo/breeds/poodle-miniature/n02113712_3052.jpg"
+    },
+    {
+      "id": "11",
+      "gender": "male",
+      "country": "France",
+      "name": "Louis Martin",
+      "email": "louis.martin@example.com",
+      "dob": { "date": "1988-03-12", "age": 38 },
+      "phone": "555-3333",
+      "petImage": "https://images.dog.ceo/breeds/spaniel-welsh/n02102177_507.jpg"
+    }
+  ]
+}
