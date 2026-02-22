@@ -40,9 +40,7 @@ describe("Users & Their Dogs", () => {
     cy.get("#count").clear().type("2");
     cy.contains("button", "Fetch Users").click();
 
-    cy.wait("@getFrenchUsers")
-      .its("request.url")
-      .should("contain", "nat=FR");
+    cy.wait("@getFrenchUsers").its("request.url").should("contain", "nat=FR");
 
     cy.get('section[aria-label="Users with their dogs"] .rounded-2xl')
       .should("have.length", 2)
@@ -81,7 +79,6 @@ describe("Users & Their Dogs", () => {
     cy.wait("@getUsersError");
 
     cy.contains("Request failed with status 500").should("be.visible");
-    cy.get('section[aria-label="Users with their dogs"]')
-      .should("not.exist");
+    cy.get('section[aria-label="Users with their dogs"]').should("not.exist");
   });
 });
