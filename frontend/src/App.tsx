@@ -18,7 +18,7 @@ function App() {
   const apiBaseUrl =
     apiBase !== undefined ? apiBase.trim() : "http://localhost:8080";
 
-  const fetchUsers = useCallback(async () => {
+  const fetchUsers = async () => {
     if (count < 1 || count > 50) {
       setError("Number of users must be between 1 and 50.");
       return;
@@ -53,11 +53,12 @@ function App() {
     } finally {
       setLoading(false);
     }
-  }, [count, nationality, apiBaseUrl]);
+  };
 
   useEffect(() => {
     void fetchUsers();
-  }, [fetchUsers]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="app bg-gray-100 min-h-screen mx-auto max-w-5xl p-6 flex flex-col gap-6">
